@@ -1,4 +1,4 @@
-# CLAUDE.md — Roundsboard Wiki
+# CLAUDE.md — RoundsBoard Wiki
 
 Bilingual (EN + PL) documentation site. Stack: **Astro + Starlight**, deployed to **GitHub Pages**.
 

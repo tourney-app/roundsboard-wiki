@@ -3,11 +3,11 @@ title: Getting started
 description: Start here — what this wiki covers and how to navigate it.
 ---
 
-Welcome to the Roundsboard Wiki.
+Welcome to the RoundsBoard Wiki.
 
 This site collects:
 
-- **Roundsboard** — how to use the app to run and manage tournaments.
+- **RoundsBoard** — how to use the app to run and manage tournaments.
 - **Tournaments** — general advice on organizing events, participating, and handling clocks.
 
 ## Next steps

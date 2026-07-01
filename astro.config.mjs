@@ -7,7 +7,7 @@ export default defineConfig({
   site: 'https://wiki.roundsboard.com',
   integrations: [
     starlight({
-      title: 'Roundsboard Wiki',
+      title: 'RoundsBoard Wiki',
       defaultLocale: 'root',
       locales: {
         root: { label: 'English', lang: 'en' },

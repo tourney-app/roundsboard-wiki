@@ -1,6 +1,6 @@
-# Roundsboard Wiki
+# RoundsBoard Wiki
 
-Bilingual (English + Polish) documentation and guide for **Roundsboard**, plus general
+Bilingual (English + Polish) documentation and guide for **RoundsBoard**, plus general
 tournament know-how — organizing, participating, handling clocks.
 
 Built with [Astro](https://astro.build) + [Starlight](https://starlight.astro.build),
