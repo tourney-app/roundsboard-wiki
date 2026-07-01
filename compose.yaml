@@ -1,0 +1,13 @@
+services:
+  wiki:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - wiki_node_modules:/app/node_modules # named vol → host FS untouched
+    ports:
+      - "4321:4321"
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+
+volumes:
+  wiki_node_modules:
