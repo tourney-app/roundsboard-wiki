@@ -15,6 +15,11 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: 'Getting started',
+          translations: { pl: 'Zacznij tutaj' },
+          slug: 'getting-started',
+        },
+        {
           label: 'Guide',
           translations: { pl: 'Przewodnik' },
           autogenerate: { directory: 'guide' },
