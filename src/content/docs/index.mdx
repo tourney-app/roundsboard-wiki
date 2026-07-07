@@ -11,13 +11,22 @@ hero:
       variant: primary
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
-  <Card title="RoundsBoard" icon="rocket">
-    Learn how to use the RoundsBoard app to run and manage tournaments.
-  </Card>
-  <Card title="Tournaments" icon="open-book">
-    General advice: organizing an event, participating, handling clocks and time controls.
-  </Card>
+  <LinkCard
+    title="Getting started"
+    href="/getting-started/"
+    description="Start here — what RoundsBoard is and how to begin."
+  />
+  <LinkCard
+    title="Compendium"
+    href="/compendium/time-control/"
+    description="General tournament know-how: organizing, participating, clocks and time controls."
+  />
+  <LinkCard
+    title="Changelog"
+    href="/changelog/2026-07-07/"
+    description="What's new in RoundsBoard — updates and releases."
+  />
 </CardGrid>
