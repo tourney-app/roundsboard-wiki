@@ -21,9 +21,9 @@ export default defineConfig({
           slug: 'getting-started',
         },
         {
-          label: 'Guide',
-          translations: { pl: 'Przewodnik' },
-          autogenerate: { directory: 'guide' },
+          label: 'Compendium',
+          translations: { pl: 'Kompendium' },
+          autogenerate: { directory: 'compendium' },
         },
       ],
       social: [
