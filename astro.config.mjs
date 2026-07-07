@@ -25,6 +25,11 @@ export default defineConfig({
           translations: { pl: 'Kompendium' },
           autogenerate: { directory: 'compendium' },
         },
+        {
+          label: 'Changelog',
+          translations: { pl: 'Dziennik zmian' },
+          autogenerate: { directory: 'changelog' },
+        },
       ],
       social: [
         {
