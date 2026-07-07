@@ -8,6 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'RoundsBoard Wiki',
+      customCss: ['./src/styles/custom.css'],
       defaultLocale: 'root',
       locales: {
         root: { label: 'English', lang: 'en' },

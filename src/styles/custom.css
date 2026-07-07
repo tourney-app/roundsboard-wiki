@@ -1,0 +1,17 @@
+/* RoundsBoard brand palette — matches main app (primary #be872a, bg #f5f5f5). */
+
+/* Dark theme (Starlight default) */
+:root {
+  --sl-color-accent-low: #3d2c08;
+  --sl-color-accent: #be872a;
+  --sl-color-accent-high: #e7ca8e;
+}
+
+/* Light theme */
+:root[data-theme='light'] {
+  --sl-color-accent-low: #f6e7c6;
+  --sl-color-accent: #9c6d1a;
+  --sl-color-accent-high: #4a340b;
+
+  --sl-color-bg: #f5f5f5;
+}
